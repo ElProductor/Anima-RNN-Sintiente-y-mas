@@ -1,0 +1,614 @@
+2025-07-05 21:06:50,696 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 21:06:50,698 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 21:06:50,700 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 21:06:50,700 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 21:06:50,702 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 21:06:50,704 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 21:06:50,990 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 21:06:51,001 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 21:06:51,004 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 21:06:51,005 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 21:06:51,007 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 21:06:51,007 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 21:06:51,007 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 21:06:51,008 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 21:06:51,008 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 21:06:51,008 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 21:06:51,012 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 21:06:51,927 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.7:5001
+2025-07-05 21:06:51,927 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-05 21:06:51,932 - werkzeug - INFO -  * Restarting with stat
+2025-07-05 21:06:59,469 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 21:06:59,471 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 21:06:59,472 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 21:06:59,472 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 21:06:59,474 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 21:06:59,475 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 21:06:59,670 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 21:06:59,677 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 21:06:59,678 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 21:06:59,681 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 21:06:59,682 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 21:06:59,683 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 21:06:59,684 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 21:06:59,684 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 21:06:59,684 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 21:06:59,685 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 21:06:59,689 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 21:06:59,704 - werkzeug - WARNING -  * Debugger is active!
+2025-07-05 21:06:59,730 - werkzeug - INFO -  * Debugger PIN: 571-642-386
+2025-07-05 21:47:55,961 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 21:47:55,962 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 21:47:55,964 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 21:47:55,964 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 21:47:55,965 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 21:47:55,966 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 21:47:56,159 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 21:47:56,166 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 21:47:56,168 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 21:47:56,169 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 21:47:56,172 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 21:47:56,172 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 21:47:56,172 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 21:47:56,172 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 21:47:56,172 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 21:47:56,173 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 21:47:56,176 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 21:47:57,159 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.7:5001
+2025-07-05 21:47:57,160 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-05 21:47:57,162 - werkzeug - INFO -  * Restarting with stat
+2025-07-05 21:48:05,172 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 21:48:05,174 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 21:48:05,177 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 21:48:05,178 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 21:48:05,179 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 21:48:05,181 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 21:48:05,389 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 21:48:05,395 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 21:48:05,397 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 21:48:05,398 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 21:48:05,399 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 21:48:05,400 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 21:48:05,400 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 21:48:05,400 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 21:48:05,400 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 21:48:05,400 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 21:48:05,403 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 21:48:05,417 - werkzeug - WARNING -  * Debugger is active!
+2025-07-05 21:48:05,430 - werkzeug - INFO -  * Debugger PIN: 571-642-386
+2025-07-05 22:13:50,795 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 22:13:50] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-05 22:13:50,804 - DatabaseIntegration - ERROR - Error generando respuesta: 'NoneType' object cannot be interpreted as an integer
+2025-07-05 22:13:50,806 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 22:13:50] "POST /chat HTTP/1.1" 200 -
+2025-07-05 22:14:25,823 - werkzeug - INFO -  * Detected change in 'C:\\Users\\juanp\\Desktop\\ANIMA\\RNN.py', reloading
+2025-07-05 22:14:27,147 - werkzeug - INFO -  * Restarting with stat
+2025-07-05 22:39:03,558 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 22:39:03,560 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 22:39:03,570 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 22:39:03,571 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 22:39:03,572 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 22:39:03,575 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 22:39:03,860 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 22:39:03,869 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 22:39:03,872 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 22:39:03,874 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 22:39:03,875 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 22:39:03,876 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 22:39:03,876 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 22:39:03,876 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 22:39:03,876 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 22:39:03,877 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 22:39:03,880 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 22:39:04,834 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.7:5001
+2025-07-05 22:39:04,835 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-05 22:39:04,839 - werkzeug - INFO -  * Restarting with stat
+2025-07-05 22:39:13,954 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 22:39:13,955 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 22:39:13,957 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 22:39:13,958 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 22:39:13,959 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 22:39:13,959 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 22:39:14,151 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 22:39:14,158 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 22:39:14,159 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 22:39:14,162 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 22:39:14,163 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 22:39:14,164 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 22:39:14,164 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 22:39:14,164 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 22:39:14,164 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 22:39:14,164 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 22:39:14,167 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 22:39:14,181 - werkzeug - WARNING -  * Debugger is active!
+2025-07-05 22:39:14,196 - werkzeug - INFO -  * Debugger PIN: 571-642-386
+2025-07-05 22:42:20,827 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 22:42:20] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-05 22:42:20,831 - DatabaseIntegration - ERROR - Error generando respuesta: 'NoneType' object cannot be interpreted as an integer
+2025-07-05 22:42:20,833 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 22:42:20] "POST /chat HTTP/1.1" 200 -
+2025-07-05 22:43:23,695 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 22:43:23,696 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 22:43:23,697 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 22:43:23,697 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 22:43:23,698 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 22:43:23,699 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 22:43:24,003 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 22:43:24,013 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 22:43:24,015 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 22:43:24,016 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 22:43:24,018 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 22:43:24,018 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 22:43:24,018 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 22:43:24,020 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 22:43:24,021 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 22:43:24,021 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 22:43:24,024 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 22:43:24,916 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.7:5001
+2025-07-05 22:43:24,917 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-05 22:43:24,920 - werkzeug - INFO -  * Restarting with stat
+2025-07-05 22:43:32,595 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 22:43:32,598 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 22:43:32,599 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 22:43:32,600 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 22:43:32,600 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 22:43:32,601 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 22:43:32,822 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 22:43:32,829 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 22:43:32,830 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 22:43:32,832 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 22:43:32,833 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 22:43:32,833 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 22:43:32,833 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 22:43:32,834 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 22:43:32,834 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 22:43:32,835 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 22:43:32,838 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 22:43:32,856 - werkzeug - WARNING -  * Debugger is active!
+2025-07-05 22:43:32,869 - werkzeug - INFO -  * Debugger PIN: 571-642-386
+2025-07-05 22:45:46,378 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 22:45:46,379 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 22:45:46,381 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 22:45:46,382 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 22:45:46,383 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 22:45:46,383 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 22:45:46,569 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 22:45:46,578 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 22:45:46,583 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 22:45:46,585 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 22:45:46,587 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 22:45:46,588 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 22:45:46,588 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 22:45:46,588 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 22:45:46,589 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 22:45:46,590 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 22:45:46,592 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 22:45:47,507 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.7:5001
+2025-07-05 22:45:47,508 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-05 22:45:47,511 - werkzeug - INFO -  * Restarting with stat
+2025-07-05 22:45:53,744 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 22:45:53,745 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 22:45:53,747 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 22:45:53,747 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 22:45:53,748 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 22:45:53,748 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 22:45:53,916 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 22:45:53,923 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 22:45:53,926 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 22:45:53,927 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 22:45:53,928 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 22:45:53,928 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 22:45:53,930 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 22:45:53,930 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 22:45:53,930 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 22:45:53,931 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 22:45:53,933 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 22:45:53,949 - werkzeug - WARNING -  * Debugger is active!
+2025-07-05 22:45:53,963 - werkzeug - INFO -  * Debugger PIN: 571-642-386
+2025-07-05 22:46:00,837 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 22:46:00] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-05 22:46:00,843 - DatabaseIntegration - ERROR - Error generando respuesta: 'NoneType' object cannot be interpreted as an integer
+2025-07-05 22:46:00,845 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 22:46:00] "POST /chat HTTP/1.1" 200 -
+2025-07-05 23:13:58,898 - werkzeug - INFO -  * Detected change in 'C:\\Users\\juanp\\Desktop\\ANIMA\\database_config.py', reloading
+2025-07-05 23:14:00,320 - werkzeug - INFO -  * Restarting with stat
+2025-07-05 23:15:08,565 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:15:08,569 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:15:08,573 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:15:08,574 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:15:08,583 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 23:15:08,593 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 23:15:08,820 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 23:15:08,832 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 23:15:08,834 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:15:08,836 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:15:08,838 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:15:08,838 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:15:08,840 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 23:15:08,840 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 23:15:08,840 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 23:15:08,841 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 23:15:08,844 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 23:15:09,016 - werkzeug - WARNING -  * Debugger is active!
+2025-07-05 23:15:09,040 - werkzeug - INFO -  * Debugger PIN: 571-642-386
+2025-07-05 23:16:20,098 - werkzeug - INFO -  * Detected change in 'C:\\Users\\juanp\\Desktop\\ANIMA\\database_config.py', reloading
+2025-07-05 23:16:21,097 - werkzeug - INFO -  * Restarting with stat
+2025-07-05 23:16:28,748 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:16:28,749 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:16:28,751 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:16:28,751 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:16:28,752 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 23:16:28,752 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 23:16:28,955 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 23:16:28,966 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 23:16:28,968 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:16:28,969 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:16:28,971 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:16:28,971 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:16:28,972 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 23:16:28,973 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 23:16:28,975 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 23:16:28,975 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 23:16:28,978 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 23:16:28,995 - werkzeug - WARNING -  * Debugger is active!
+2025-07-05 23:16:29,012 - werkzeug - INFO -  * Debugger PIN: 571-642-386
+2025-07-05 23:26:26,848 - werkzeug - INFO -  * Detected change in 'C:\\Users\\juanp\\Desktop\\ANIMA\\database_integration.py', reloading
+2025-07-05 23:26:28,178 - werkzeug - INFO -  * Restarting with stat
+2025-07-05 23:26:37,523 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:26:37,526 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:26:37,529 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:26:37,529 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:26:37,529 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 23:26:37,530 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 23:26:37,732 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 23:26:37,741 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 23:26:37,741 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:26:37,741 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:26:37,741 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:26:37,741 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:26:37,741 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 23:26:37,749 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 23:26:37,749 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 23:26:37,749 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 23:26:37,755 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 23:26:37,771 - werkzeug - WARNING -  * Debugger is active!
+2025-07-05 23:26:37,787 - werkzeug - INFO -  * Debugger PIN: 571-642-386
+2025-07-05 23:30:35,274 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:30:35,278 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:30:35,280 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:30:35,280 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:30:35,281 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 23:30:35,283 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 23:30:35,681 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 23:30:35,695 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 23:30:35,698 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:30:35,699 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:30:35,700 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:30:35,700 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:30:35,702 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 23:30:35,702 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 23:30:35,702 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 23:30:35,702 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 23:30:35,706 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 23:30:36,747 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.7:5001
+2025-07-05 23:30:36,747 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-05 23:30:36,751 - werkzeug - INFO -  * Restarting with stat
+2025-07-05 23:30:44,699 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:30:44,700 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:30:44,702 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:30:44,702 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:30:44,703 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 23:30:44,704 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 23:30:44,882 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 23:30:44,893 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 23:30:44,894 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:30:44,896 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:30:44,898 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:30:44,899 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:30:44,899 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 23:30:44,899 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 23:30:44,899 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 23:30:44,900 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 23:30:44,902 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 23:30:44,917 - werkzeug - WARNING -  * Debugger is active!
+2025-07-05 23:30:44,946 - werkzeug - INFO -  * Debugger PIN: 571-642-386
+2025-07-05 23:31:47,407 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 23:31:47] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-05 23:31:47,414 - DatabaseIntegration - ERROR - Error generando respuesta: 'NoneType' object cannot be interpreted as an integer
+2025-07-05 23:31:47,416 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 23:31:47] "POST /chat HTTP/1.1" 200 -
+2025-07-05 23:34:00,965 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:34:00,967 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:34:00,969 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:34:00,969 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:34:00,970 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 23:34:00,970 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 23:34:01,164 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 23:34:01,173 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 23:34:01,175 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:34:01,176 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:34:01,178 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:34:01,178 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:34:01,179 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 23:34:01,179 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 23:34:01,179 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 23:34:01,180 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 23:34:01,184 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 23:34:02,102 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.7:5001
+2025-07-05 23:34:02,102 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-05 23:34:02,105 - werkzeug - INFO -  * Restarting with stat
+2025-07-05 23:34:09,507 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:34:09,508 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:34:09,511 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:34:09,512 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:34:09,512 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 23:34:09,513 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 23:34:09,699 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 23:34:09,706 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 23:34:09,708 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:34:09,709 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:34:09,712 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:34:09,712 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:34:09,713 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 23:34:09,713 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 23:34:09,713 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 23:34:09,714 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 23:34:09,717 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 23:34:09,734 - werkzeug - WARNING -  * Debugger is active!
+2025-07-05 23:34:09,751 - werkzeug - INFO -  * Debugger PIN: 571-642-386
+2025-07-05 23:34:58,560 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 23:34:58] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-05 23:34:58,570 - DatabaseIntegration - ERROR - Error generando respuesta: 'NoneType' object cannot be interpreted as an integer
+2025-07-05 23:34:58,570 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 23:34:58] "POST /chat HTTP/1.1" 200 -
+2025-07-05 23:36:27,876 - werkzeug - INFO -  * Detected change in 'C:\\Users\\juanp\\Desktop\\ANIMA\\database_integration.py', reloading
+2025-07-05 23:36:29,200 - werkzeug - INFO -  * Restarting with stat
+2025-07-05 23:36:36,823 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:36:36,825 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:36:36,826 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:36:36,827 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:36:36,827 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 23:36:36,828 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 23:36:37,030 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 23:36:37,038 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 23:36:37,040 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:36:37,042 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:36:37,044 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:36:37,044 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:36:37,045 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 23:36:37,045 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 23:36:37,045 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 23:36:37,045 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 23:36:37,049 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 23:36:37,067 - werkzeug - WARNING -  * Debugger is active!
+2025-07-05 23:36:37,084 - werkzeug - INFO -  * Debugger PIN: 571-642-386
+2025-07-05 23:36:45,852 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 23:36:45] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-05 23:36:45,858 - DatabaseIntegration - ERROR - Error generando respuesta: 'NoneType' object cannot be interpreted as an integer
+2025-07-05 23:36:45,870 - DatabaseIntegration - ERROR - Error completo: TypeError("'NoneType' object cannot be interpreted as an integer")
+2025-07-05 23:36:45,873 - DatabaseIntegration - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\juanp\Desktop\ANIMA\database_integration.py", line 58, in generate_and_save_response
+    response = self.chatbot.generate_response(user_input, context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\juanp\Desktop\ANIMA\RNN.py", line 121, in generate_response
+    response_text = self._decode_sequence(encoder_input_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\juanp\Desktop\ANIMA\RNN.py", line 188, in _decode_sequence
+    target_seq = np.zeros((1, self.max_target_len))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object cannot be interpreted as an integer
+
+2025-07-05 23:36:45,874 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 23:36:45] "POST /chat HTTP/1.1" 200 -
+2025-07-05 23:45:31,001 - werkzeug - INFO -  * Detected change in 'C:\\Users\\juanp\\Desktop\\ANIMA\\RNN.py', reloading
+2025-07-05 23:45:32,186 - werkzeug - INFO -  * Restarting with stat
+2025-07-05 23:45:40,980 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:45:40,982 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:45:40,984 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:45:40,984 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:45:40,985 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 23:45:40,986 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 23:45:41,216 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 23:45:41,226 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 23:45:41,228 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:45:41,230 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:45:41,231 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:45:41,231 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:45:41,232 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 23:45:41,232 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 23:45:41,232 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 23:45:41,233 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 23:45:41,237 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 23:45:41,250 - werkzeug - WARNING -  * Debugger is active!
+2025-07-05 23:45:41,264 - werkzeug - INFO -  * Debugger PIN: 571-642-386
+2025-07-05 23:48:04,282 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:48:04,285 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:48:04,285 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:48:04,285 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:48:04,285 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 23:48:04,285 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 23:48:04,477 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 23:48:04,485 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 23:48:04,485 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:48:04,485 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:48:04,493 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:48:04,493 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:48:04,493 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 23:48:04,493 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 23:48:04,494 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 23:48:04,494 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 23:48:04,497 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 23:48:05,402 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.7:5001
+2025-07-05 23:48:05,402 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-05 23:48:05,402 - werkzeug - INFO -  * Restarting with stat
+2025-07-05 23:48:13,080 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:48:13,081 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:48:13,083 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:48:13,083 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:48:13,084 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 23:48:13,085 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 23:48:13,273 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 23:48:13,282 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 23:48:13,284 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:48:13,286 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:48:13,289 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:48:13,289 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:48:13,290 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 23:48:13,290 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 23:48:13,290 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 23:48:13,291 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 23:48:13,294 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 23:48:13,312 - werkzeug - WARNING -  * Debugger is active!
+2025-07-05 23:48:13,326 - werkzeug - INFO -  * Debugger PIN: 571-642-386
+2025-07-05 23:48:56,288 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 23:48:56] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-05 23:49:02,705 - ANIMA - INFO - Memory stored: web_user...
+2025-07-05 23:49:02,728 - DatabaseIntegration - INFO - Conversación guardada - Usuario: web_user, Tiempo: 6412ms
+2025-07-05 23:49:02,729 - DatabaseIntegration - INFO - Procesamiento completo - Usuario: web_user, Componentes: ['user_input', 'user_id', 'session_id', 'timestamp', 'chatbot_response']
+2025-07-05 23:49:02,729 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 23:49:02] "POST /chat HTTP/1.1" 200 -
+2025-07-05 23:49:08,242 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 23:49:08] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-05 23:49:13,480 - ANIMA - INFO - Memory stored: web_user...
+2025-07-05 23:49:13,500 - DatabaseIntegration - INFO - Conversación guardada - Usuario: web_user, Tiempo: 5230ms
+2025-07-05 23:49:13,501 - DatabaseIntegration - INFO - Procesamiento completo - Usuario: web_user, Componentes: ['user_input', 'user_id', 'session_id', 'timestamp', 'chatbot_response']
+2025-07-05 23:49:13,502 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 23:49:13] "POST /chat HTTP/1.1" 200 -
+2025-07-05 23:50:10,657 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 23:50:10] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-05 23:50:17,104 - ANIMA - INFO - Memory stored: web_user...
+2025-07-05 23:50:17,124 - DatabaseIntegration - INFO - Conversación guardada - Usuario: web_user, Tiempo: 6439ms
+2025-07-05 23:50:17,125 - DatabaseIntegration - INFO - Procesamiento completo - Usuario: web_user, Componentes: ['user_input', 'user_id', 'session_id', 'timestamp', 'chatbot_response']
+2025-07-05 23:50:17,126 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 23:50:17] "POST /chat HTTP/1.1" 200 -
+2025-07-05 23:55:32,860 - werkzeug - INFO -  * Detected change in 'C:\\Users\\juanp\\Desktop\\ANIMA\\database_integration.py', reloading
+2025-07-05 23:55:33,957 - werkzeug - INFO -  * Restarting with stat
+2025-07-05 23:55:47,247 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:55:47,248 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:55:47,251 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:55:47,251 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:55:47,253 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 23:55:47,253 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 23:55:47,499 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 23:55:47,509 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 23:55:47,516 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:55:47,518 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:55:47,518 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:55:47,518 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:55:47,518 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 23:55:47,518 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 23:55:47,518 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 23:55:47,518 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 23:55:47,524 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 23:55:48,445 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.7:5001
+2025-07-05 23:55:48,446 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-05 23:55:48,451 - werkzeug - INFO -  * Restarting with stat
+2025-07-05 23:56:12,816 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:56:12,817 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:56:12,819 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:56:12,819 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:56:12,820 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 23:56:12,821 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 23:56:12,992 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 23:56:12,994 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 23:56:13,000 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:56:13,002 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:56:13,002 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:56:13,004 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:56:13,004 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 23:56:13,004 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 23:56:13,004 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 23:56:13,004 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 23:56:13,007 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 23:56:13,988 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.7:5001
+2025-07-05 23:56:13,988 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-05 23:56:13,991 - werkzeug - INFO -  * Restarting with stat
+2025-07-05 23:56:21,994 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:56:21,997 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:56:22,001 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:56:22,002 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:56:22,003 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 23:56:22,006 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 23:56:22,222 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 23:56:22,229 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 23:56:22,231 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:56:22,232 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:56:22,234 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:56:22,234 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:56:22,234 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 23:56:22,235 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 23:56:22,235 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 23:56:22,236 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 23:56:22,239 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 23:56:22,255 - werkzeug - WARNING -  * Debugger is active!
+2025-07-05 23:56:22,271 - werkzeug - INFO -  * Debugger PIN: 571-642-386
+2025-07-05 23:56:39,466 - werkzeug - INFO -  * Detected change in 'C:\\Users\\juanp\\Desktop\\ANIMA\\RNN.py', reloading
+2025-07-05 23:56:40,443 - werkzeug - INFO -  * Restarting with stat
+2025-07-05 23:57:06,954 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:57:06,956 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:57:06,959 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:57:06,959 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:57:06,960 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 23:57:06,961 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 23:57:07,271 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 23:57:07,280 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 23:57:07,283 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:57:07,285 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:57:07,287 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:57:07,287 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:57:07,288 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 23:57:07,288 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 23:57:07,288 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 23:57:07,289 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 23:57:07,294 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 23:57:08,208 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.7:5001
+2025-07-05 23:57:08,209 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-05 23:57:08,211 - werkzeug - INFO -  * Restarting with stat
+2025-07-05 23:57:17,394 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:57:17,396 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:57:17,397 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:57:17,399 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:57:17,400 - RNNManager - INFO - Tokenizer cargado desde archivo
+2025-07-05 23:57:17,401 - ANIMA - INFO - Memory loaded from quantum_memory.pkl
+2025-07-05 23:57:17,629 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 23:57:17,637 - ANIMA - INFO - Model loaded successfully from chatbot_state_model.h5
+2025-07-05 23:57:17,641 - DatabaseManager - INFO - Base de datos del Chatbot inicializada: chatbot_rnn.db
+2025-07-05 23:57:17,644 - DatabaseManager - INFO - Base de datos de RNN Tiempo Real inicializada: realtime_rnn.db
+2025-07-05 23:57:17,647 - DatabaseManager - INFO - Base de datos de RNN Emocional inicializada: emotion_rnn.db
+2025-07-05 23:57:17,648 - DatabaseManager - INFO - Gestor de bases de datos RNN inicializado
+2025-07-05 23:57:17,648 - DatabaseIntegration - INFO - Integración de base de datos del Chatbot inicializada
+2025-07-05 23:57:17,648 - DatabaseIntegration - INFO - Sistema RNN integrado inicializado
+2025-07-05 23:57:17,649 - RNNManager - INFO - Administrador de RNN con bases de datos integradas inicializado
+2025-07-05 23:57:17,649 - ANIMAApp - INFO - Aplicación ANIMA inicializada con sistema de bases de datos integrado
+2025-07-05 23:57:17,653 - ANIMAApp - INFO - Iniciando servidor ANIMA en puerto 5001
+2025-07-05 23:57:17,677 - werkzeug - WARNING -  * Debugger is active!
+2025-07-05 23:57:17,695 - werkzeug - INFO -  * Debugger PIN: 571-642-386
+2025-07-05 23:57:29,002 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 23:57:29] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-05 23:57:34,772 - ANIMA - INFO - Memory stored: web_user...
+2025-07-05 23:57:34,773 - ANIMA - INFO - Training on interaction: User input='hola', Response='hasta hasta hasta luego, luego, luego, luego, luego, luego, luego, luego, luego, luego, luego, luego, luego, luego, luego, que que luego, luego, ¿cómo ¿cómo ¿cómo ¿cómo ¿cómo ¿cómo ¿cómo ¿cómo ¿cómo ¿cómo ¿cómo ¿cómo ¿cómo'
+2025-07-05 23:57:35,074 - ANIMA - ERROR - Error during training on interaction: Arguments `target` and `output` must have the same rank (ndim). Received: target.shape=(1, 100), output.shape=(1, 100, 60)
+2025-07-05 23:57:35,098 - DatabaseIntegration - INFO - Conversación guardada - Usuario: web_user, Tiempo: 6065ms
+2025-07-05 23:57:35,099 - DatabaseIntegration - INFO - Procesamiento completo - Usuario: web_user, Componentes: ['user_input', 'user_id', 'session_id', 'timestamp', 'chatbot_response']
+2025-07-05 23:57:35,100 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 23:57:35] "POST /chat HTTP/1.1" 200 -
+2025-07-05 23:57:52,296 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 23:57:52] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-05 23:57:57,676 - ANIMA - INFO - Memory stored: web_user...
+2025-07-05 23:57:57,676 - ANIMA - INFO - Training on interaction: User input='como estas?', Response='hasta hasta hasta luego, luego, luego, luego, luego, luego, luego, luego, luego, luego, luego, luego, luego, luego, luego, luego, que luego, que luego, luego, ¿cómo ¿cómo ¿cómo ¿cómo ¿cómo ¿cómo ¿cómo ¿cómo ¿cómo ¿cómo ¿cómo ¿cómo ¿cómo ¿cómo'
+2025-07-05 23:57:57,997 - ANIMA - ERROR - Error during training on interaction: Arguments `target` and `output` must have the same rank (ndim). Received: target.shape=(1, 100), output.shape=(1, 100, 60)
+2025-07-05 23:57:58,013 - DatabaseIntegration - INFO - Conversación guardada - Usuario: web_user, Tiempo: 5697ms
+2025-07-05 23:57:58,013 - DatabaseIntegration - INFO - Procesamiento completo - Usuario: web_user, Componentes: ['user_input', 'user_id', 'session_id', 'timestamp', 'chatbot_response']
+2025-07-05 23:57:58,015 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 23:57:58] "POST /chat HTTP/1.1" 200 -

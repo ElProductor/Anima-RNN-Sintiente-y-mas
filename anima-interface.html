@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYNAPSE Quantum v3 - Neural Interface</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+        
+        :root {
+            --primary-glow: #00f5ff;
+            --secondary-glow: #ff00ff;
+            --accent-glow: #00ff88;
+            --neural-purple: #8b5cf6;
+            --neural-blue: #06b6d4;
+            --neural-green: #10b981;
+            --neural-pink: #ec4899;
+        }
+        
+        * {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        
+        .mono {
+            font-family: 'JetBrains Mono', monospace;
+        }
+        
+        body {
+            background: #0a0a0a;
+            overflow-x: hidden;
+        }
+        
+        /* Animated Neural Network Background */
+        .neural-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 20% 20%, rgba(139, 92, 246, 0.1) 0%, transparent 25%),
+                radial-gradient(circle at 80% 80%, rgba(6, 182, 212, 0.1) 0%, transparent 25%),
+                radial-gradient(circle at 60% 40%, rgba(16, 185, 129, 0.08) 0%, transparent 30%),
+                radial-gradient(circle at 40% 70%, rgba(236, 72, 153, 0.08) 0%, transparent 30%),
+                linear-gradient(135deg, #0a0a0a 0%, #111111 50%, #0a0a0a 100%);
+            z-index: -1;
+        }
+        
+        .neural-bg::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(90deg, rgba(139, 92, 246, 0.03) 1px, transparent 1px),
+                linear-gradient(rgba(139, 92, 246, 0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
+            animation: grid-move 20s linear infinite;
+        }
+        
+        @keyframes grid-move {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(50px, 50px); }
+        }
+        
+        /* Floating Neural Nodes */
+        .neural-node {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: var(--primary-glow);
+            border-radius: 50%;
+            box-shadow: 0 0 20px currentColor;
+            animation: float-node 8s ease-in-out infinite;
+        }
+        
+        @keyframes float-node {
+            0%, 100% { transform: translateY(0px) scale(1); opacity: 0.6; }
+            50% { transform: translateY(-30px) scale(1.2); opacity: 1; }
+        }
+        
+        /* Glassmorphism Effects */
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.02);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            box-shadow: 
+                0 8px 32px rgba(0, 0, 0, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.05);
+        }
+        
+        .glass-strong {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(25px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 
+                0 20px 60px rgba(0, 0, 0, 0.5),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+        }
+        
+        /* Message Styles */
+        .message-bubble {
+            position: relative;
+            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+            transform: translateY(20px);
+            opacity: 0;
+            animation: message-enter 0.6s ease-out forwards;
+        }
+        
+        @keyframes message-enter {
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        
+        .message-bubble:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+        
+        .user-message {
+            background: linear-gradient(135deg, 
+                rgba(139, 92, 246, 0.15) 0%, 
+                rgba(236, 72, 153, 0.15) 100%);
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            margin-left: 20%;
+        }
+        
+        .ai-message {
+            background: linear-gradient(135deg, 
+                rgba(6, 182, 212, 0.15) 0%, 
+                rgba(16, 185, 129, 0.15) 100%);
+            border: 1px solid rgba(6, 182, 212, 0.2);
+            margin-right: 20%;
+        }
+        
+        /* Typing Animation */
+        .typing-dots {
+            display: flex;
+            gap: 4px;
+            padding: 20px;
+        }
+        
+        .typing-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--primary-glow);
+            animation: typing-bounce 1.4s infinite ease-in-out;
+        }
+        
+        .typing-dot:nth-child(1) { animation-delay: -0.32s; }
+        .typing-dot:nth-child(2) { animation-delay: -0.16s; }
+        .typing-dot:nth-child(3) { animation-delay: 0s; }
+        
+        @keyframes typing-bounce {
+            0%, 80%, 100% { transform: scale(0.8); opacity: 0.5; }
+            40% { transform: scale(1.2); opacity: 1; }
+        }
+        
+        /* Input Area */
+        .input-area {
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            transition: all 0.3s ease;
+        }
+        
+        .input-area:focus-within {
+            border-color: var(--primary-glow);
+            box-shadow: 0 0 30px rgba(0, 245, 255, 0.2);
+        }
+        
+        .send-btn {
+            background: linear-gradient(135deg, var(--neural-purple), var(--neural-blue));
+            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .send-btn:hover:not(:disabled) {
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 0 10px 25px rgba(139, 92, 246, 0.3);
+        }
+        
+        .send-btn:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+        
+        .send-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            transform: skewX(-30deg);
+            transition: all 0.7s ease;
+        }
+
+        .send-btn:hover:not(:disabled)::before {
+            left: 100%;
+        }
+
+        /* Scrollbar Styling */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #1a1a1a;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(180deg, var(--neural-purple), var(--neural-blue));
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(180deg, var(--neural-blue), var(--neural-purple));
+        }
+
+        /* Utility Classes */
+        .glow-text-primary {
+            text-shadow: 0 0 8px var(--primary-glow);
+        }
+
+        .glow-text-secondary {
+            text-shadow: 0 0 8px var(--secondary-glow);
+        }
+
+        .glow-border-primary {
+            box-shadow: 0 0 15px var(--primary-glow);
+        }
+
+        .glow-border-secondary {
+            box-shadow: 0 0 15px var(--secondary-glow);
+        }
+
+        .animate-pulse-slow {
+            animation: pulse-slow 4s infinite ease-in-out;
+        }
+
+        @keyframes pulse-slow {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+
+        .animate-fade-in {
+            animation: fade-in 1s ease-out forwards;
+        }
+
+        @keyframes fade-in {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .animate-slide-up {
+            animation: slide-up 0.5s ease-out forwards;
+        }
+
+        @keyframes slide-up {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .animate-scale-in {
+            animation: scale-in 0.5s ease-out forwards;
+        }
+
+        @keyframes scale-in {
+            from { transform: scale(0.9); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        /* Specific styles for the blinking cursor */
+        .blinking-cursor {
+            font-weight: 100;
+            opacity: 1;
+            animation: blink 1s linear infinite;
+        }
+
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        /* Custom selection color */
+        ::selection {
+            background-color: var(--neural-purple);
+            color: #ffffff;
+        }
+
+        /* For Firefox */
+        ::-moz-selection {
+            background-color: var(--neural-purple);
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="neural-bg"></div>
+
+    <!-- Neural Nodes (Dynamic) -->
+    <div id="neural-nodes-container"></div>
+
+    <div class="min-h-screen flex flex-col items-center justify-between p-4 relative z-10">
+        <!-- Header -->
+        <header class="w-full max-w-4xl text-center mb-8 animate-fade-in">
+            <h1 class="text-5xl font-bold text-white mb-2 glow-text-primary">
+                SYNAPSE <span class="text-neural-purple">Quantum</span> v3
+            </h1>
+            <p class="text-xl text-gray-400 mono">Neural Interface // Active</p>
+        </header>
+
+        <!-- Chat Container -->
+        <main class="flex-grow w-full max-w-3xl glass-strong rounded-3xl p-6 flex flex-col shadow-2xl animate-scale-in">
+            <!-- Chat History -->
+            <div id="chat-history" class="flex-grow overflow-y-auto space-y-6 pr-2 mb-6">
+                <!-- Initial AI Message -->
+                <div class="flex justify-start animate-slide-up">
+                    <div class="ai-message p-4 rounded-xl max-w-[80%] text-gray-200 shadow-lg">
+                        <p class="mono">[SYNAPSE_CORE]: Initializing neural pathways... Connection established. How may I assist you?</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="input-area p-2 rounded-xl flex items-center shadow-xl">
+                <textarea
+                    id="user-input"
+                    class="flex-grow bg-transparent text-white placeholder-gray-500 p-3 outline-none resize-none h-12 overflow-hidden mono"
+                    placeholder="Type your message..."
+                    rows="1"
+                    oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"'
+                ></textarea>
+                <button id="send-button" class="send-btn text-white p-3 rounded-lg ml-2 flex items-center justify-center text-lg font-semibold disabled:opacity-50 disabled:cursor-not-allowed">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                    </svg>
+                </button>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="w-full max-w-4xl text-center mt-8 text-gray-500 text-sm mono animate-fade-in">
+            <p>&copy; 2023 ANIMA. All rights reserved. Quantum AI Interface v3.0</p>
+        </footer>
+    </div>
+
+    <script>
+        const chatHistory = document.getElementById('chat-history');
+        const userInput = document.getElementById('user-input');
+        const sendButton = document.getElementById('send-button');
+        const neuralNodesContainer = document.getElementById('neural-nodes-container');
+
+        // Function to add a message to the chat history
+        function addMessage(sender, message) {
+            const messageDiv = document.createElement('div');
+            messageDiv.classList.add('flex', sender === 'user' ? 'justify-end' : 'justify-start', 'animate-slide-up');
+
+            const bubbleDiv = document.createElement('div');
+            bubbleDiv.classList.add(
+                'message-bubble',
+                'p-4',
+                'rounded-xl',
+                'max-w-[80%]',
+                'text-gray-200',
+                'shadow-lg',
+                sender === 'user' ? 'user-message' : 'ai-message'
+            );
+            bubbleDiv.innerHTML = `<p class="mono">${message}</p>`;
+            messageDiv.appendChild(bubbleDiv);
+            chatHistory.appendChild(messageDiv);
+
+            // Scroll to bottom
+            chatHistory.scrollTop = chatHistory.scrollHeight;
+        }
+
+        // Get AI response from the server
+        async function getAIResponse(userMessage) {
+            // Add typing indicator
+            const typingDiv = document.createElement('div');
+            typingDiv.classList.add('flex', 'justify-start');
+            typingDiv.innerHTML = `
+                <div class="ai-message p-4 rounded-xl max-w-[80%] text-gray-200 shadow-lg">
+                    <div class="typing-dots">
+                        <div class="typing-dot"></div>
+                        <div class="typing-dot"></div>
+                        <div class="typing-dot"></div>
+                    </div>
+                </div>
+            `;
+            chatHistory.appendChild(typingDiv);
+            chatHistory.scrollTop = chatHistory.scrollHeight;
+
+            try {
+                const response = await fetch('http://127.0.0.1:5001/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ 
+                        message: userMessage,
+                        user_id: 'web_user' // You can implement user management later
+                    }),
+                });
+
+                // Remove typing indicator
+                chatHistory.removeChild(typingDiv);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                const aiMessage = data.response || "[SYNAPSE_CORE]: Error processing response.";
+                addMessage('ai', aiMessage);
+
+            } catch (error) {
+                console.error('Error fetching AI response:', error);
+                // Remove typing indicator in case of error
+                if (chatHistory.contains(typingDiv)) {
+                    chatHistory.removeChild(typingDiv);
+                }
+                addMessage('ai', '[SYNAPSE_CORE]: Connection error. Unable to reach neural core.');
+            }
+        }
+
+        // Send message on button click or Enter key
+        sendButton.addEventListener('click', () => {
+            sendMessage();
+        });
+
+        userInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault(); // Prevent new line
+                sendMessage();
+            }
+        });
+
+        function sendMessage() {
+            const message = userInput.value.trim();
+            if (message) {
+                addMessage('user', message);
+                userInput.value = '';
+                userInput.style.height = '48px'; // Reset height
+                getAIResponse(message);
+            }
+        }
+
+        // Dynamic Neural Nodes Generation
+        function createNeuralNode() {
+            const node = document.createElement('div');
+            node.classList.add('neural-node');
+            node.style.left = `${Math.random() * 100}%`;
+            node.style.top = `${Math.random() * 100}%`;
+            node.style.animationDelay = `${Math.random() * 5}s`;
+            node.style.backgroundColor = `var(--${['primary-glow', 'secondary-glow', 'accent-glow'][Math.floor(Math.random() * 3)]})`;
+            node.style.boxShadow = `0 0 ${Math.random() * 15 + 5}px currentColor`;
+            neuralNodesContainer.appendChild(node);
+
+            // Remove node after animation to prevent accumulation
+            node.addEventListener('animationend', () => {
+                node.remove();
+            });
+        }
+
+        // Generate nodes periodically
+        setInterval(createNeuralNode, 1000);
+
+        // Initial nodes
+        for (let i = 0; i < 20; i++) {
+            createNeuralNode();
+        }
+
+        // Adjust textarea height dynamically
+        userInput.addEventListener('input', function() {
+            this.style.height = 'auto';
+            this.style.height = (this.scrollHeight) + 'px';
+        });
+
+        // Disable send button if input is empty
+        userInput.addEventListener('input', () => {
+            sendButton.disabled = userInput.value.trim() === '';
+        });
+
+        // Initial check for send button state
+        sendButton.disabled = true;
+    </script>
+</body>
+</html>
